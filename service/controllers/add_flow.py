@@ -1,2 +1,4 @@
-class AddFlow:
-    pass
+class AddFlow(object):
+
+    def create_flow(self):
+        pass
