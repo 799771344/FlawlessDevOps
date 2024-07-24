@@ -1,0 +1,2 @@
+class FlowSetting:
+    pass

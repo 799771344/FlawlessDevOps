@@ -1,0 +1,7 @@
+*/__pycache/
+.idea/
+.vscode/
+log/*
+__pycache__/
+./.venv/
+conf/FlawlessDevOps_local.yaml

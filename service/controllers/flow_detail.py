@@ -1,0 +1,2 @@
+class FlowDetail:
+    pass

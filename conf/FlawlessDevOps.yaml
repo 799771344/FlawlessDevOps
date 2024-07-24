@@ -1,0 +1,24 @@
+server:
+  service:
+    host: 0.0.0.0
+    port: 9092
+
+client:
+  mysql:
+    FlawlessDevOps:
+      host:
+      port:
+      user:
+      password:
+      database:
+  redis:
+    host:
+    port:
+    password:
+  deploy_server_info:
+    host:
+    username:
+    password:
+  images_repository_info:
+    username:
+    password:
