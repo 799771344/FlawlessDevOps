@@ -1,5 +1,5 @@
-from CI.CI import DeployDocker
-from CD.CD import DeployServer
+from service.controllers.CI import DeployDocker
+from service.controllers.CD import DeployServer
 
 
 def CICD(images_url, docker_path, app_name, container_name, port_mapping):
