@@ -22,7 +22,7 @@ class AuthMiddleware(BaseHTTPMiddleware):
 
     async def dispatch(self, request: Request, call_next):
         request_url = str(request.url)
-        ex_url = ("/index", "/login", '/register', "/article_view")
+        ex_url = ("/login", '/register')
         is_ok_num = 0
         for u in ex_url:
             if u in request_url:
